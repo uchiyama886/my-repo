@@ -8,5 +8,5 @@ jobs:
         steps:
             - run: echo "${EXAMPLES}"
             - env:
-                EXAMPLE: Defined by step level
-            run: echo "${EXAMPLE}"
+                EXAMPLE: Defined by step leve
+              run: echo "${EXAMPLE}"
