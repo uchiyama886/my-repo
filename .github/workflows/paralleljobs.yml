@@ -1,6 +1,6 @@
 name: Parallel jobs
 on: push
-jobs:
+jobs:               #jobsキーに複数jobを指定すれば並列処理をする
     first:
         runs-on: ubuntu-latest
         steps:
