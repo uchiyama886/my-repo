@@ -5,6 +5,6 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - run: |
-                echo "## Example Totle : rocket:"" >> "${GITHUB_STEP_SUMMARY}"
+                echo "## Example Totle : rocket:" >> "${GITHUB_STEP_SUMMARY}"
                 echo "- first line" >> "${GITHUB_STEP_SUMMARY}"
                 echo "- second line" >> "${GITHUB_STEP_SUMMARY}"
